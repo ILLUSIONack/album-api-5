@@ -1,0 +1,66 @@
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/appsettings.json
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/Album.Api.exe
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/Album.Api.deps.json
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/Album.Api.runtimeconfig.json
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/Album.Api.runtimeconfig.dev.json
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/Album.Api.dll
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/ref/Album.Api.dll
+C:/Users/WLD/source/repos/Album-Api/Album.Api/bin/Debug/net5.0/Album.Api.pdb
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.csproj.AssemblyReference.cache
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.AssemblyInfoInputs.cache
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.AssemblyInfo.cs
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.csproj.CoreCompileInputs.cache
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/scopedcss/bundle/Album.Api.styles.css
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/staticwebassets/Album.Api.StaticWebAssets.Manifest.cache
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.RazorTargetAssemblyInfo.cache
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.dll
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/ref/Album.Api.dll
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.pdb
+C:/Users/WLD/source/repos/Album-Api/Album.Api/obj/Debug/net5.0/Album.Api.genruntimeconfig.cache
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/appsettings.json
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/Album.Api.exe
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/Album.Api.deps.json
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/Album.Api.runtimeconfig.json
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/Album.Api.runtimeconfig.dev.json
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/Album.Api.dll
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/ref/Album.Api.dll
+C:/Users/WLD/repos/new album api/album-api/Album.Api/bin/Debug/net5.0/Album.Api.pdb
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.csproj.AssemblyReference.cache
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.AssemblyInfoInputs.cache
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.AssemblyInfo.cs
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.csproj.CoreCompileInputs.cache
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/scopedcss/bundle/Album.Api.styles.css
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/staticwebassets/Album.Api.StaticWebAssets.Manifest.cache
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.RazorTargetAssemblyInfo.cache
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.dll
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/ref/Album.Api.dll
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.pdb
+C:/Users/WLD/repos/new album api/album-api/Album.Api/obj/Debug/net5.0/Album.Api.genruntimeconfig.cache
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/appsettings.Development.json
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/appsettings.json
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/Album.Api
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/Album.Api.deps.json
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/Album.Api.runtimeconfig.json
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/Album.Api.runtimeconfig.dev.json
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/Album.Api.dll
+/Users/kevinson/album-api-4/Album.Api/bin/Debug/net5.0/Album.Api.pdb
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.csproj.AssemblyReference.cache
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.AssemblyInfoInputs.cache
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.AssemblyInfo.cs
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.csproj.CoreCompileInputs.cache
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.MvcApplicationPartsAssemblyInfo.cache
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/scopedcss/bundle/Album.Api.styles.css
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/staticwebassets/Album.Api.StaticWebAssets.Manifest.cache
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.RazorTargetAssemblyInfo.cache
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.dll
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/refint/Album.Api.dll
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.pdb
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/Album.Api.genruntimeconfig.cache
+/Users/kevinson/album-api-4/Album.Api/obj/Debug/net5.0/ref/Album.Api.dll
