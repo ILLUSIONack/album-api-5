@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.OpenApi.Models;
 
 namespace Album.Api
 {
@@ -32,6 +33,8 @@ namespace Album.Api
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllers();
+            services.AddSwaggerGen(c => 
+            c.SwaggerDoc("v1", new OpenApiInfo{ Title = "Album.Api", Version = "v1"}));
             services.AddHealthChecks();
 
         }
@@ -47,6 +50,13 @@ namespace Album.Api
             app.UseHealthChecks("/health");//your request URL will be health
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseRouting();
 
