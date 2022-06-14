@@ -2,16 +2,16 @@ using System.Collections.Generic;
 
 namespace Album.Api.Services
 {
-    public interface IAlbumService
+    public interface IAlbumService<T>
     {
-        List<Models.Album> GetAlbums();
+        public T PostAlbum(T album);
 
-        Models.Album GetAlbum(int id);
+        public void PutAlbum(int id, T album);
 
-        void PostAlbum(Models.Album album);
+        public IEnumerable<T> GetAlbums();
 
-        void PutAlbum(int id, Models.Album album);
+        public T GetAlbum(int id);
 
-        void DeleteAlbum(int id);
+        public void DeleteAlbum(int id);
     }
 }

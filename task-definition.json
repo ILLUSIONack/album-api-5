@@ -25,7 +25,12 @@
         "command": null,
         "linuxParameters": null,
         "cpu": 0,
-        "environment": [],
+        "environment": [
+          {
+            "name": "CONNECTIONSTRINGS__DEFAULTCONNECTION",
+            "value": "DefaultConnection"
+        }
+        ],
         "resourceRequirements": null,
         "ulimits": null,
         "dnsServers": null,

@@ -11,41 +11,49 @@ namespace Album.Api.Controllers
     [ApiController]
     public class AlbumController : ControllerBase
     {
-        private IAlbumService iAlbumService;
+        private IAlbumService<Models.Album> iAlbumService;
 
-        public AlbumController(AlbumContext albumContext)
+        public AlbumController(IAlbumService<Models.Album> iAlbumService)
         {
-            this.iAlbumService = new AlbumService(albumContext);
+            this.iAlbumService = iAlbumService;
         }
 
+        // GET: api/Album
         [HttpGet]
-        public IEnumerable<Models.Album> Get()
+        public IActionResult Get()
         {
-            return iAlbumService.GetAlbums();
+            var results = iAlbumService.GetAlbums();
+            return Ok(results);
         }
 
+        // GET: api/Album/5
         [HttpGet("{id}")]
-        public Models.Album Get(int id)
+        public IActionResult Get(int id)
         {
-            return iAlbumService.GetAlbum(id);
+            return Ok(iAlbumService.GetAlbum(id));
         }
 
-        [HttpPost]
-        public void Post([FromBody] Models.Album album)
-        {
-            iAlbumService.PostAlbum(album);
-        }
-
+        // PUT: api/Album/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Models.Album album)
         {
             iAlbumService.PutAlbum(id, album);
         }
 
+        // POST: api/Album
+        [HttpPost]
+        public IActionResult Post([FromBody] Models.Album album)
+        {
+            iAlbumService.PostAlbum(album);
+            return CreatedAtAction("GetAlbummodel", new { id = album.Id }, album);
+        }
+
+        // DELETE: api/Album/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
             iAlbumService.DeleteAlbum(id);
+            return NoContent();
         }
     }
 }

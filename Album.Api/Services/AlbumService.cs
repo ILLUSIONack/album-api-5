@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Album.Api.Services
 {
-    public class AlbumService : IAlbumService
+    public class AlbumService : IAlbumService<Models.Album>
     {
         private readonly AlbumContext albumContext;
 
@@ -15,11 +15,28 @@ namespace Album.Api.Services
             this.albumContext = albumContext;
         }
 
+        public Models.Album PostAlbum(Models.Album album)
+        {
+            albumContext.Albums.Add(album);
+            albumContext.SaveChanges();
+            return album;
+        }
+
         public void DeleteAlbum(int id)
         {
             var result = albumContext.Albums.Where(a => a.Id == id).FirstOrDefault();
             albumContext.Albums.Remove(result);
             albumContext.SaveChanges();
+        }
+
+        public IEnumerable<Models.Album> GetAlbums()
+        {
+            var result = albumContext.Albums.ToList();
+            if (result != null)
+            {
+                return result;
+            }
+            return null;
         }
 
         public Models.Album GetAlbum(int id)
@@ -30,22 +47,6 @@ namespace Album.Api.Services
                 return result;
             }
             return null;
-        }
-
-        public List<Models.Album> GetAlbums()
-        {
-            var result = albumContext.Albums.ToList();
-            if (result != null)
-            {
-                return result;
-            }
-            return null;
-        }
-
-        public void PostAlbum(Models.Album album)
-        {
-            albumContext.Albums.Add(album);
-            albumContext.SaveChanges();
         }
 
         public void PutAlbum(int id, Models.Album album)
